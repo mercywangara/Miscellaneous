@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        form{
+            border: 50px;
+            width: 50% ;
+            margin: auto;
+            padding: 50px;
+        }
+        .hr-lines{
+  position: relative;
+  max-width: 550px;
+  margin: 60px auto;
+  text-align: center;
+        }
+        .hr-lines:before{
+  content:" ";
+  height: 1px;
+  width: 110px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 1px;
+  width: 110px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+    </style>
+</head>
+<body>
+    <form>
+    <p>Already have an account? Sign in</p>
+    <br>
+    <h1>Sign up</h1>
+    
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="text" id="email" placeholder="Enter your email">
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="text" id="password" placeholder="Enter your password">
+        <br><br>
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">I've Read And Agree With <b>The Terms Of Service</b> And Our <b>Privacy Policy</b></label>
+        <br><br><br>
+        <button type="submit" id="submit_button" background color="black" color="white">Sign Up</button>
+        <h2 class="hr-lines"> Or Sign Up With</h2>
+
+        <div class="icons">
+            <i class="fa fa-google fa-3x center"></i>
+            <i class="fa fa-facebook fa-3x center"></i>
+        </div>
+    </form>
+
+    
+</body>
+</html>
