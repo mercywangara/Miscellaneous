@@ -1,0 +1,7 @@
+cow
+goat
+sheep
+leopard
+lion
+monkey
+
